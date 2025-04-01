@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load("models/churn_model.pkl")
 
 # Streamlit UI
-st.title("📊 Customer Churn Prediction")
+st.title(" Customer Churn Prediction")
 st.write("Enter customer details to predict churn.")
 
 # User inputs (Ensure these match your dataset features)
